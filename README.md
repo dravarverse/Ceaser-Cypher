@@ -1,6 +1,24 @@
-# Ceaser Cypher
+# Caesar Cipher
 
-## Console based encrytion/decryption application based on ceaser cypher method.
+A console-based encryption/decryption application using the Caesar cipher method.
 
-## Use command(root directory):
-`cmake --build build && ./build/CeaserCypher`
+## Requirements
+
+- CMake
+- A C++ compiler (e.g., GCC, Clang, or MSVC)
+
+## Build
+
+```bash
+mkdir build && cd build
+cmake ..
+cmake --build .
+```
+
+## Usage
+
+Run the compiled executable from the `build` directory and follow the on-screen prompts to encrypt or decrypt text.
+
+```bash
+./CeaserCypher
+```
